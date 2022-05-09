@@ -20,19 +20,19 @@
       "_id": "3",
       "name": "Weekly Coverage",
       "image": "https://i.ibb.co/k8zGTrM/blue-white.jpg",
-      "description": "If you want to booking for a week it may be your choice.Complete wedding package with unlimited images ",
+      "description": "If you want to booking for a week it may be your choice.Complete wedding package with unlimited images.",
       "price": 35000,
       "rating": 4
     },
     {
       "_id": "4",
       "name": "Night Photoshoot",
-      "image": "https://i.ibb.co/q5xfQz8/stands-backyard-decorated.jpg",
+      "image": "https://i.ibb.co/q5xfQz8/stands-backyard-decorated.jpg ",
       "description": "It is only for one night package.",
       "price": 6000,
       "rating": 4
      },
-    {
+     {
       "_id": "5",
       "name": "Premium",
       "image": "https://i.ibb.co/DthsTkD/couple-best.jpg",
@@ -48,5 +48,6 @@
       "price": 6000,
       "rating": 4
      }
-       
+
+   
   ]
