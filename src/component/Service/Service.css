@@ -6,7 +6,6 @@
     /* margin: 20px 30px; */
     /* margin-left: 50px; */
     margin: 50px;
-    
 }
 img{
     border-radius: 10px 10px 0 0;
@@ -15,9 +14,24 @@ img{
 .service{
 border: 3px solid rgb(194, 190, 190);
 border-radius: 10px;
-
 }
 
 .service-info{
 padding-left: 10px;
+}
+.btn-cart{
+    width: 100%;
+    background: #FFE0B3;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-cart .btn-text{
+    margin-right: 5px;
+}
+.btn-cart:hover{
+    background-color: orange;
 }

@@ -6,10 +6,10 @@ const Services = () => {
     const [services, setServices] = ServicesList();
     return (
         <div>
-        <h1>All Customers Services</h1>
+        <h1>ALL CUSTOMER SERVICES</h1>
 
     <div className='service-container'>
-   
+
    {
       services.map(service =><Service
       key={service._id}

@@ -3,7 +3,7 @@
       "_id": "1",
       "name": "Hourly Coverage ",
       "image": "https://i.ibb.co/P4sRyyB/bands-hands-bride.jpg",
-      "description": "It is a hourly package.You can booking for one our or more.",
+      "description": "It is a hourly package.You can booking for one our or more then one hour",
       "price": 500,
       "rating": 4
     },
@@ -11,7 +11,7 @@
       "_id": "2",
       "name": "Full Day Coverage",
       "image": "https://i.ibb.co/hZD1njN/wedding-walk-nature.jpg",
-      "description": " I think it is the best package with reasonable amount. ",
+      "description": " I think it is the best package with reasonable amount for one day/night",
      
       "price": 5000,
       "rating": 4.5

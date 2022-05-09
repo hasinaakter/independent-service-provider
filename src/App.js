@@ -10,7 +10,7 @@ import Services from './component/Services/Services';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Header></Header>
       <Routes>
         <Route  path='/'>Home</Route>

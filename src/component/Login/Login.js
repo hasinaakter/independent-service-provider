@@ -29,7 +29,7 @@ const Login = () => {
         signInWithEmailAndPassword(email, password);
     }
     if(user){
-        navigate('/shop');
+        navigate('/home');
     }
     return (
         <div className='form-container'>

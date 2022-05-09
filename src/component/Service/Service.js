@@ -1,9 +1,27 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Service.css'
+import auth from './../../firebase.init';
+import { useAuthState } from 'react-firebase-hooks/auth';
+
 
 const Service = (props) => {
+     const navigate = useNavigate();
+     const [user] = useAuthState(auth);    
+
+      
+     const handlerButton = () =>{
+
+          if(user){
+               navigate('/services');
+           }
+           else{
+                navigate('/login');
+           }
+     }
     console.log(props);
     const {name,image,price,description,rating} = props.service;
+
     return (
         <div className='service-container'>
         <div className='service'>
@@ -16,6 +34,10 @@ const Service = (props) => {
              <p>Description: {description}</p>
              <h4>Rating: {rating} out of 5</h4>
              
+        </div>
+        <div>
+        <button onClick={handlerButton } className='btn-cart'>
+                <p className='btn-text'>Book Now</p></button>
         </div>
         </div>
        </div>
