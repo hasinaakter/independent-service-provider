@@ -1,0 +1,11 @@
+.footer-class {
+    display: block;
+    margin-bottom: 0;
+    text-align: center; 
+    position:relative; 
+    bottom:0;
+    height:50px;  
+    background:rgb(159, 161, 161);
+    padding: 25px;
+    font-size: 18px;
+}

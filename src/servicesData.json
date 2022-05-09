@@ -1,0 +1,37 @@
+[
+    {
+      "_id": "1",
+      "name": "Hourly Coverage ",
+      "image": "https://i.ibb.co/P4sRyyB/bands-hands-bride.jpg",
+      "description": "It is a hourly package.You can booking for one our or more.",
+      "price": 500,
+      "rating": 4
+    },
+    {
+      "_id": "2",
+      "name": "Full Day Coverage",
+      "image": "https://i.ibb.co/hZD1njN/wedding-walk-nature.jpg",
+      "description": " I think it is the best package with reasonable amount. ",
+     
+      "price": 5000,
+      "rating": 4.5
+    },
+    {
+      "_id": "3",
+      "name": "Weekly Coverage",
+      "image": "https://i.ibb.co/hZD1njN/wedding-walk-nature.jpg",
+      "description": "If you want to booking for a week it may be your choice.Complete wedding package with unlimited images ",
+      "price": 35000,
+      "rating": 4
+    },
+    {
+      "_id": "4",
+      "name": "Night Photoshoot",
+      "image": "https://i.ibb.co/q5xfQz8/stands-backyard-decorated.jpg",
+      "description": "It is only for one night package.",
+      "price": 6000,
+      "rating": 4
+     }
+
+   
+  ]
