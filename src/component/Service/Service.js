@@ -11,13 +11,10 @@ const Service = (props) => {
 
       
      const handlerButton = () =>{
+               navigate('/checkout');     
+     } 
 
-          if(user){
-               navigate('/checkout');
-           }
-          
-     }
-    console.log(props);
+//     console.log(props);
     const {name,image,price,description,rating} = props.service;
 
     return (

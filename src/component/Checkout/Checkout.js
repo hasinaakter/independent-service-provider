@@ -3,7 +3,8 @@ import React from 'react';
 const Checkout = () => {
     return (
         <div>
-            <h2>checkout page</h2>
+            <h1>checkout page</h1>
+        
         </div>
     );
 };

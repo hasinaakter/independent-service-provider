@@ -33,6 +33,9 @@ const Login = () => {
     }
 
     const from = location?.state?.from?.pathname || '/';
+    if(user){
+        navigate(from,{replace:true})
+    }
 
     const handleGoogleSignIn = () => {
         signInWithGoogle()
@@ -40,10 +43,7 @@ const Login = () => {
                 navigate('/home')
             })
     }
-    if (user) {
-        navigate('/home');
-    
-    }
+   
     return (
         <div className='form-container'>
             <div>
