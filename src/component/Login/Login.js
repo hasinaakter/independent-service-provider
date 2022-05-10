@@ -40,7 +40,7 @@ const Login = () => {
     const handleGoogleSignIn = () => {
         signInWithGoogle()
             .then(() => {
-                navigate('/home')
+                 navigate('/home');
             })
     }
    
