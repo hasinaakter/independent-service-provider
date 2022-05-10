@@ -1,0 +1,21 @@
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    border: 1px gray solid;
+    border-radius: 10px;
+    margin: 50px;
+}
+.about-me{
+ margin: 40px;
+ padding: 40px 30px;
+ 
+}
+.image{
+max-width: 100%;
+height: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 40px 30px;
+
+}
