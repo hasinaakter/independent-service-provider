@@ -7,6 +7,8 @@ import Header from './component/Header/Header';
 import About from './component/About/About';
 import Blogs from './component/Blogs/Blogs';
 import Services from './component/Services/Services';
+import Checkout from './component/Checkout/Checkout';
+import NotFound from './component/NotFound/NotFound';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route  path='/blogs'element={<Blogs></Blogs>}>Blogs</Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
+        <Route path='/checkout' element={<Checkout></Checkout>}>Check Out</Route>
+        <Route path='/*' element={<NotFound></NotFound>}>Not Found</Route>
 
       </Routes>
     </div>
