@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
-
-
 import "./Login.css";
+import { Spinner } from 'react-bootstrap';
 
 const Login = () => {
     const location = useLocation();
@@ -18,7 +17,7 @@ const Login = () => {
         user,
         loading,
         error,
-    ] = useSignInWithEmailAndPassword(auth);
+    ] = useSignInWithEmailAndPassword(auth,{sendEmailVerification:true});
 
     const handleEmailBlur = event => {
         setEmail(event.target.value);
@@ -33,14 +32,17 @@ const Login = () => {
     }
 
     const from = location?.state?.from?.pathname || '/';
+
     if(user){
         navigate(from,{replace:true})
     }
 
+
     const handleGoogleSignIn = () => {
         signInWithGoogle()
             .then(() => {
-                 navigate('/home');
+            navigate(from,{replace:true})
+
             })
     }
    
