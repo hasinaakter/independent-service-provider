@@ -6,6 +6,7 @@
     border-radius: 8px;
     display: flex;
     justify-content: center;
+    background-color: #f5f6f7;
 }
 
 .form-title {
@@ -50,6 +51,14 @@
 .form-link{
     color: #FF9900;
     text-decoration: none;
+}
+.google-signin{
+    width: 415px;
+    height: 55px;
+    border-radius: 5px;
+    border:#95A0A7 2px solid;
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 .other-option{
     display: flex;

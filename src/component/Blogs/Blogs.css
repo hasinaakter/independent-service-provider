@@ -1,0 +1,15 @@
+.question-container{
+    margin: 20px;
+    padding: 10px;
+}
+.question{
+margin-left: 40px;
+border: 1px rgb(62, 39, 39) solid;
+background-color: rgb(243, 243, 243);
+border-radius: 10px;
+padding: 10px 30px ;
+margin-bottom: 30px;
+}
+.question h3{
+    color: rgba(241, 128, 7, 0.688);
+}
