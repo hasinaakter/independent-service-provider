@@ -3,7 +3,9 @@ import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import "./Login.css";
-import { Spinner } from 'react-bootstrap';
+import { ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
     const location = useLocation();
@@ -35,7 +37,7 @@ const Login = () => {
 
     if(user){
         navigate(from,{replace:true})
-    }
+    } 
 
 
     const handleGoogleSignIn = () => {
@@ -45,6 +47,8 @@ const Login = () => {
 
             })
     }
+
+    const notify = () => toast("Send a massage!");
    
     return (
         <div className='form-container'>
@@ -77,6 +81,10 @@ const Login = () => {
             
                 <div >                 
                      <button onClick={handleGoogleSignIn} className='google-signin'>Continue With Google</button>
+                </div>
+                <div>
+                    <p>Forgot Password? <button onClick={notify} className='reset-btn'> reset password</button></p>
+                    <ToastContainer />
                 </div>
             </div>
 

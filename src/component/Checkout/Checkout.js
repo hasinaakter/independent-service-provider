@@ -15,6 +15,10 @@ const Checkout = () => {
                         <input type="text" name="text" id="" required />
                     </div> 
                     <div className="input-group">
+                        <label htmlFor='text' > Your Adress</label>
+                        <input type="text" name="text" id="" required />
+                    </div> 
+                    <div className="input-group">
                         <label htmlFor='number' > Your Phone Number</label>
                         <input type="number" name="number" id="" required />
                     </div>
