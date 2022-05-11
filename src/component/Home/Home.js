@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <>
             <h1>WEDDING PHOTOGRAPHY</h1>
-            {/* <Banner></Banner> */}
+            <Banner></Banner> 
             <h1>SEE ABOUT SOME SERVICES</h1>
             <div className='service-container'>
 
