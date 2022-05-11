@@ -13,6 +13,10 @@ const Header = () => {
     return (
         <nav className='header'>
 
+             <div>
+                <h2 style={{color:'white'}}>Wedding Photography</h2>
+             {/* <img src=" " alt="" /> */}
+            </div>
             <div>
                 <Link to="/home">Home</Link>
                 <Link to="/services">Services</Link>

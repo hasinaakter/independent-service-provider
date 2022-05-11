@@ -9,8 +9,9 @@ const Home = () => {
 
     return (
         <>
-            <h1>WEDDING PHOTOGRAPHY</h1>
+            {/* <h1>WEDDING PHOTOGRAPHY</h1> */}
             <Banner></Banner> 
+            <br/>
             <h1>SEE ABOUT SOME SERVICES</h1>
             <div className='service-container'>
 
@@ -22,7 +23,6 @@ const Home = () => {
                     </Service>)
                 }
             </div>
-
             <Footer></Footer>
         </>
     );

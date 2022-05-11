@@ -4,15 +4,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .header a{
     color: #FFFFFF;
     text-decoration: none;
     font-size: 17px;
-    margin-left: 36px;
+    margin-left: 30px;
 }
 .header a:hover{
     color: orange;
@@ -28,3 +28,18 @@
 .header button:hover{
     color: orange;
 }
+
+    /* For mobile phones: */
+@media only screen and (max-width: 768px) {
+    .header {
+      padding-left: 10px;
+      padding-right: 5px;
+      width: 100%;
+    }
+    .header a{
+        margin: 3px ;
+    }
+    .header button{
+        margin: 3px;
+    }
+  }
