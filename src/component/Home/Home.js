@@ -1,5 +1,6 @@
 import React from 'react';
 import ServicesList from '../../hooks/ServicesList';
+import About from '../About/About';
 import Banner from '../Banner/Banner';
 import Footer from '../Footer/Footer';
 import Service from '../Service/Service';
@@ -9,10 +10,14 @@ const Home = () => {
 
     return (
         <>
-            {/* <h1>WEDDING PHOTOGRAPHY</h1> */}
             <Banner></Banner> 
             <br/>
-            <h1>SEE ABOUT SOME SERVICES</h1>
+
+            {/* Extra section */}
+            <About></About>
+            <h1>SEE ABOUT My SERVICES</h1>
+
+            {/* load three services from hooks */}
             <div className='service-container'>
 
                 {
