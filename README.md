@@ -1,4 +1,4 @@
-# Website Name: Wedding Photography
+# Name of My Website: Wedding Photography
 # Live Link: https://independent-service-prov-bfa65.web.app
 ### 1. First of all, I create a website for an individual service provider who provides wedding photography.
 ### 2. Added Five different sections ( header, about, banner, services, and footer) on the home page.
